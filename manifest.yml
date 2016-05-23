@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: Trainer to Player
+  host: Trainer-to-Player
+  disk_quota: 1024M
+  services:
+  - Trainer to Player-AdvancedMobileAccess
+  - Trainer to Player-imfpush
+  - Trainer to Player-cloudantNoSQLDB
